@@ -22,7 +22,7 @@ This is a Node.js application that fetches and stores cryptocurrency data (Bitco
 ### 1. Fetch Stats
 Returns the latest stats for a specific coin.
 
-**URL**: `/api/stats?coin=coinid`
+**URL**: `/api/stats?coin=coinid`</br>
 **sample endpoint**: `https://crypto-assignment-84xg.onrender.com/api/stats?coin=bitcoin`
 
 **Method**: `GET`
@@ -41,7 +41,7 @@ Returns the latest stats for a specific coin.
 ### 2. Fetch Standard Deviation
 Returns the standard deviation of the price over the last 100 data points for a specific coin.
 
-**URL**: `/api/deviation?coin=coinid`
+**URL**: `/api/deviation?coin=coinid`</br>
 **sample endpoint**: `https://crypto-assignment-84xg.onrender.com/api/deviation?coin=bitcoin`
 
 **Method**: `GET`
